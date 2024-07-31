@@ -171,3 +171,37 @@ Gambar 7.5
 ![[Pasted image 20240731232908.png]]
 
 
+
+# Update File Dari Git ke Github
+code 8.1
+```shell
+git add .
+```
+Penjelasan: 
+perintah yang digunakan di terminal atau command line untuk menambahkan semua file dan perubahan di direktori kerja saat ini ke staging area di Git.
+
+Gambar 8.1
+![[Pasted image 20240731235505.png]]
+
+code 8.2
+```shell
+git commit -m "Awal Belajar 2"
+```
+Penjelasan: 
+perintah yang digunakan di terminal atau command line untuk membuat commit baru dalam repositori Git.
+
+Gambar 8.2
+![[Pasted image 20240731235524.png]]
+
+code 8.3
+```shell
+git push origin master
+```
+Penjelasan: 
+perintah yang digunakan di terminal atau command line untuk mengirimkan commit dari repositori Git lokal Anda ke remote repository di server (seperti GitHub) pada cabang tertentu.
+
+Gambar 8.3 (Sebelum terupdate)
+![[Pasted image 20240731235418.png]]
+
+Gambar 8.4(Sesudah diupdate)'
+![[Pasted image 20240731235434.png]]
