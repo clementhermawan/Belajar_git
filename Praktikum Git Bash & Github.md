@@ -4,29 +4,29 @@
 Untuk melakukan instalasi **Git Bash** terlebih dahulu download Git Bash pada web ini
 Link **Git Bash** : <https://git-scm.com/>
 
-![](asset/Git_bash1.PNG)
+![](asset/Git_bash1.png)
 
 setelah masuk kedalam website **Git SCM** klik tombol *"Download for windows"*
 
-![](asset/Git_bash2.PNG)
+![](asset/Git_bash2.png)
 
 Setelah mendowload silahkan lakukan instalasi aplikasi
 
-![](asset/Git_bash3.PNG)
+![](asset/Git_bash3.png)
 
 # Pembuatan Akun Github
 Buka Github melalui Web Browser (chrome,firefox,safari,bing)
 Link Github : <https://github.com/>
 
-![[Pasted image 20240801083032.png]]
+![](asset/akun_github1.png)
 
 Klik tombol **Signin** pada bagian kanan atas
 
-![[Pasted image 20240801083358.png]]
+![](asset/akun_github2.png)
 
 Masukan **"Username or email address and password** dan klik tombol *"Signin"*
 
-![[Pasted image 20240801083502.png]]
+![](asset/akun_github3.png)
 
 Tampilan akan seperti diatas jika login Github berhasil
 
@@ -37,32 +37,32 @@ Link github :
 [[https://github.com/]]
 
 Gambar 0.1
-![[asset/Pasted image 20240731233207.png]]
+![](asset/repost1.png)
 
 ***[[Langkah kedua]]***
 klik pada bagian avatar dan klik ***"Your Repository"***
 
 Gambar 0.2
-![[asset/Pasted image 20240731233857.png]]
+![](asset/repost2.png)
 
 ***[[Langkah 3]]***
 klik tombol ***"New***" yang berwarna hijau
 
 Gambar 0.3
-![[asset/Pasted image 20240731234212.png]]
+![](asset/repost3.png)]]
 
 ***[[Langkah 4]]***
 masukan ***"Repository Name"**** dan Klik tombol ***"Create Repository"*** berwarna hijau
 
 Gambar 0.4
-![[asset/Pasted image 20240731234502.png]]
+![](asset/repost4.png)
 
 
 ***[[Langkah Terakhir]]***
 selesai sudah pembuatan ***"New Repository"*** Dalam Github
 
 Gambar 0.5
-![[asset/Pasted image 20240731234734.png]]
+![](asset/repost5.png)
 
 # Konfigurasi Awal di Git Bash
 code 2.1
@@ -73,7 +73,7 @@ Penjelasan:
 perintah yang digunakan di terminal atau command line untuk menampilkan semua konfigurasi yang sedang berlaku untuk Git di sistem
 
 Gambar 2.1
-![[asset/Pasted image 20240731225816.png]]
+![](asset/config1.png)
 
 code 3.1
 ```shell
@@ -85,7 +85,7 @@ git config --global user.name "clementhermawan"
  perintah yang digunakan di terminal atau command line untuk mengatur nama pengguna Git di tingkat global.
 
 Gambar 3.1
-![[Pasted image 20240731230252.png]]
+![](asset/config2.png)
 
 code 3.2
 ```shell
@@ -97,7 +97,7 @@ git config --global user.mail clementhermawan2021@gmail.com
 perintah yang digunakan di terminal atau command line untuk mengatur alamat email pengguna Git di tingkat global.
 
 Gambar 3.2
-![[Pasted image 20240731230458.png]]
+![](asset/config3.png)
 
 
 # Akses Folder Proyek di Git Bash
@@ -110,7 +110,7 @@ Penjelasan:
 perintah yang digunakan di terminal atau command line untuk mengubah direktori kerja saat ini.
 
 Gambar 5.1
-![[Pasted image 20240731231622.png]]
+![](asset/akses1.png)
 
 # Hubungkan Folder Proyek Lokal Ke Github
 code 1.1
@@ -121,7 +121,7 @@ Penjelasan :
 perintah yang digunakan di terminal atau command line untuk menampilkan versi dari program Git yang terinstal pada sistem
 
 Gambar 1.1
-![[asset/Pasted image 20240731225432.png]]
+![](asset/Hubungkan1.png)
 
 code 2.1
 ```shell
@@ -131,7 +131,7 @@ Penjelasan:
 perintah yang digunakan di terminal atau command line untuk menampilkan semua konfigurasi yang sedang berlaku untuk Git di sistem
 
 Gambar 2.1
-![[asset/Pasted image 20240731225816.png]]
+![](asset/config1.png)
 
 code 3.1
 ```shell
@@ -143,7 +143,7 @@ git config --global user.name "clementhermawan"
  perintah yang digunakan di terminal atau command line untuk mengatur nama pengguna Git di tingkat global.
 
 Gambar 3.1
-![[Pasted image 20240731230252.png]]
+![](asset/config2.png)
 
 code 3.2
 ```shell
@@ -155,7 +155,7 @@ git config --global user.mail clementhermawan2021@gmail.com
 perintah yang digunakan di terminal atau command line untuk mengatur alamat email pengguna Git di tingkat global.
 
 Gambar 3.2
-![[Pasted image 20240731230458.png]]
+![](asset/config3.png)]]
 
 code 4.1
 ```shell
@@ -165,7 +165,7 @@ Penjelasan:
 perintah yang digunakan di terminal atau command line untuk menampilkan direktori kerja saat ini.
 
 Gambar 4.1
-![[Pasted image 20240731230703.png]]
+![](asset/Hubungkan2.png)
 
 code 5.1
 ```shell
@@ -176,7 +176,7 @@ Penjelasan:
 perintah yang digunakan di terminal atau command line untuk mengubah direktori kerja saat ini.
 
 Gambar 5.1
-![[Pasted image 20240731231622.png]]
+![](asset/akses1.png)
 
 code 6.1
 ```shell
@@ -186,7 +186,7 @@ Penjelasan :
 perintah yang digunakan di terminal atau command line untuk menampilkan daftar file dan direktori di dalam direktori kerja saat ini.
 
 Gambar 6.1
-![[Pasted image 20240731231745.png]]
+![](asset/Hubungkan3.png)
 
 code 7.1
 ```shell
@@ -196,7 +196,7 @@ Penjelasan :
 perintah yang digunakan di terminal atau command line untuk menginisialisasi sebuah repositori Git baru dalam direktori saat ini.
 
 Gambar 7.1
-![[Pasted image 20240731232011.png]]
+![](asset/Hubungkan4.png)
 
 code 7.2
 ```shell
@@ -208,7 +208,7 @@ Penjelasan:
 perintah yang digunakan di terminal atau command line untuk menambahkan remote repository ke repositori Git lokal
 
 Gambar 7.2
-![[Pasted image 20240731232154.png]]
+![](asset/Hubungkan5.png)
 
 code 7.3
 ```shell
@@ -218,7 +218,7 @@ Penjelasan:
 perintah yang digunakan di terminal atau command line untuk menambahkan semua file dan perubahan di direktori kerja saat ini ke staging area di Git.
 
 Gambar 7.3
-![[Pasted image 20240731232839.png]]
+![](asset/Hubungkan6.png)
 
 code 7.4
 ```shell
@@ -228,7 +228,7 @@ Penjelasan:
 perintah yang digunakan di terminal atau command line untuk membuat commit baru dalam repositori Git.
 
 Gambar 7.4
-![[Pasted image 20240731232852.png]]
+![](asset/Hubungkan7.png)
 
 code 7.5
 ```shell
@@ -238,7 +238,7 @@ Penjelasan:
 perintah yang digunakan di terminal atau command line untuk mengirimkan commit dari repositori Git lokal Anda ke remote repository di server (seperti GitHub) pada cabang tertentu.
 
 Gambar 7.5
-![[Pasted image 20240731232908.png]]
+![](asset/Hubungkan8.png)
 
 
 
@@ -251,7 +251,7 @@ Penjelasan:
 perintah yang digunakan di terminal atau command line untuk menambahkan semua file dan perubahan di direktori kerja saat ini ke staging area di Git.
 
 Gambar 8.1
-![[Pasted image 20240731235505.png]]
+![](asset/update1.png)
 
 code 8.2
 ```shell
@@ -261,7 +261,7 @@ Penjelasan:
 perintah yang digunakan di terminal atau command line untuk membuat commit baru dalam repositori Git.
 
 Gambar 8.2
-![[Pasted image 20240731235524.png]]
+![](asset/update2.png)
 
 code 8.3
 ```shell
@@ -270,9 +270,12 @@ git push origin master
 Penjelasan: 
 perintah yang digunakan di terminal atau command line untuk mengirimkan commit dari repositori Git lokal Anda ke remote repository di server (seperti GitHub) pada cabang tertentu.
 
-Gambar 8.3 (Sebelum terupdate)
-![[Pasted image 20240731235418.png]]
+Gambar 8.3
+![](asset/Hubungkan8.png)
 
-Gambar 8.4(Sesudah diupdate)
-![[Pasted image 20240731235434.png]]
+Gambar 8.4 (Sebelum terupdate)
+![](asset/repost7.png)
+
+Gambar 8.5(Sesudah diupdate)
+![](asset/repost8.png)
 
