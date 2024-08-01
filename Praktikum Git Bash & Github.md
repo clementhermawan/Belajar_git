@@ -1,5 +1,5 @@
 # 1.Instalasi Git Bash
-
+Git Bash adalah antarmuka baris perintah (command line interface) yang digunakan untuk berinteraksi dengan Git di lingkungan Windows. Git Bash mengemulasikan lingkungan terminal Unix, menyediakan perintah-perintah Unix yang biasa ditemukan pada sistem operasi Linux atau MacOS, sehingga memudahkan pengguna yang terbiasa dengan lingkungan tersebut.
 
 Untuk melakukan instalasi **Git Bash** terlebih dahulu download Git Bash pada web ini
 Link **Git Bash** : <https://git-scm.com/>
@@ -15,6 +15,8 @@ Setelah mendowload silahkan lakukan instalasi aplikasi
 ![](asset/Git_bash3.png)
 
 # 2.Pembuatan Akun Github
+GitHub adalah platform hosting untuk pengembangan perangkat lunak yang menggunakan sistem version control Git. GitHub menyediakan layanan berbasis web untuk repositori Git serta fitur tambahan seperti pelacakan bug, manajemen tugas, dan kolaborasi.
+
 Buka Github melalui Web Browser (chrome,firefox,safari,bing)
 Link Github : <https://github.com/>
 
