@@ -1,18 +1,35 @@
 # Instalasi Git Bash
+
+
 Untuk melakukan instalasi **Git Bash** terlebih dahulu download Git Bash pada web ini
 Link **Git Bash** : <https://git-scm.com/>
 
-![[Pasted image 20240801081858.png]]
+![](asset/Git_bash1.PNG)
 
 setelah masuk kedalam website **Git SCM** klik tombol *"Download for windows"*
 
-![[Pasted image 20240801082209.png]]
+![](asset/Git_bash2.PNG)
 
 Setelah mendowload silahkan lakukan instalasi aplikasi
 
-![[Pasted image 20240801082444.png]]
+![](asset/Git_bash3.PNG)
 
 # Pembuatan Akun Github
+Buka Github melalui Web Browser (chrome,firefox,safari,bing)
+Link Github : <https://github.com/>
+
+![[Pasted image 20240801083032.png]]
+
+Klik tombol **Signin** pada bagian kanan atas
+
+![[Pasted image 20240801083358.png]]
+
+Masukan **"Username or email address and password** dan klik tombol *"Signin"*
+
+![[Pasted image 20240801083502.png]]
+
+Tampilan akan seperti diatas jika login Github berhasil
+
 # Membuat Repository
 ***[[Langkah pertama]]***
 Masuk ke dalam github pada web browser (chrome,bing,firefox,safari dll)
@@ -47,8 +64,55 @@ selesai sudah pembuatan ***"New Repository"*** Dalam Github
 Gambar 0.5
 ![[asset/Pasted image 20240731234734.png]]
 
+# Konfigurasi Awal di Git Bash
+code 2.1
+```shell
+git config --list
+```
+Penjelasan:
+perintah yang digunakan di terminal atau command line untuk menampilkan semua konfigurasi yang sedang berlaku untuk Git di sistem
 
-# konfigurasi git ke github
+Gambar 2.1
+![[asset/Pasted image 20240731225816.png]]
+
+code 3.1
+```shell
+git config --global user.name "Nama Username Github"
+=======================================================
+git config --global user.name "clementhermawan"
+```
+ Penjelasan:
+ perintah yang digunakan di terminal atau command line untuk mengatur nama pengguna Git di tingkat global.
+
+Gambar 3.1
+![[Pasted image 20240731230252.png]]
+
+code 3.2
+```shell
+git config --global user.mail (Nama email github)
+=======================================================
+git config --global user.mail clementhermawan2021@gmail.com
+```
+ Penjelasan:
+perintah yang digunakan di terminal atau command line untuk mengatur alamat email pengguna Git di tingkat global.
+
+Gambar 3.2
+![[Pasted image 20240731230458.png]]
+
+
+# Akses Folder Proyek di Git Bash
+code 5.1
+```shell
+cd K:/obsidian
+cd belajarGit/
+```
+Penjelasan: 
+perintah yang digunakan di terminal atau command line untuk mengubah direktori kerja saat ini.
+
+Gambar 5.1
+![[Pasted image 20240731231622.png]]
+
+# Hubungkan Folder Proyek Lokal Ke Github
 code 1.1
 ```bash
 git --version
