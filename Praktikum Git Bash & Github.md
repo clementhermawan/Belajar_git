@@ -1,4 +1,4 @@
-# Instalasi Git Bash
+# 1.Instalasi Git Bash
 
 
 Untuk melakukan instalasi **Git Bash** terlebih dahulu download Git Bash pada web ini
@@ -14,7 +14,7 @@ Setelah mendowload silahkan lakukan instalasi aplikasi
 
 ![](asset/Git_bash3.png)
 
-# Pembuatan Akun Github
+# 2.Pembuatan Akun Github
 Buka Github melalui Web Browser (chrome,firefox,safari,bing)
 Link Github : <https://github.com/>
 
@@ -30,7 +30,7 @@ Masukan **"Username or email address and password** dan klik tombol *"Signin"*
 
 Tampilan akan seperti diatas jika login Github berhasil
 
-# Membuat Repository
+# 3.Membuat Repository
 ***[[Langkah pertama]]***
 Masuk ke dalam github pada web browser (chrome,bing,firefox,safari dll)
 Link github : 
@@ -64,7 +64,7 @@ selesai sudah pembuatan ***"New Repository"*** Dalam Github
 Gambar 0.5
 ![](asset/repost5.png)
 
-# Konfigurasi Awal di Git Bash
+# 4.Konfigurasi Awal di Git Bash
 code 2.1
 ```shell
 git config --list
@@ -100,7 +100,7 @@ Gambar 3.2
 ![](asset/config3.png)
 
 
-# Akses Folder Proyek di Git Bash
+# 5.Akses Folder Proyek di Git Bash
 code 5.1
 ```shell
 cd K:/obsidian
@@ -112,7 +112,7 @@ perintah yang digunakan di terminal atau command line untuk mengubah direktori k
 Gambar 5.1
 ![](asset/akses1.png)
 
-# Hubungkan Folder Proyek Lokal Ke Github
+# 6.Hubungkan Folder Proyek Lokal Ke Github
 code 1.1
 ```bash
 git --version
@@ -242,7 +242,7 @@ Gambar 7.5
 
 
 
-# Update File Dari Git ke Github
+# 7.Update File Dari Git ke Github
 code 8.1
 ```shell
 git add .
