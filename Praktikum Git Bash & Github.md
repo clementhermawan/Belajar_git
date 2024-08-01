@@ -1,37 +1,54 @@
-# membuat repository
+# Instalasi Git Bash
+Untuk melakukan instalasi **Git Bash** terlebih dahulu download Git Bash pada web ini
+Link **Git Bash** : <https://git-scm.com/>
+
+![[Pasted image 20240801081858.png]]
+
+setelah masuk kedalam website **Git SCM** klik tombol *"Download for windows"*
+
+![[Pasted image 20240801082209.png]]
+
+Setelah mendowload silahkan lakukan instalasi aplikasi
+
+![[Pasted image 20240801082444.png]]
+
+# Pembuatan Akun Github
+# Membuat Repository
 ***[[Langkah pertama]]***
 Masuk ke dalam github pada web browser (chrome,bing,firefox,safari dll)
 Link github : 
 [[https://github.com/]]
 
 Gambar 0.1
-![[Pasted image 20240731233207.png]]
+![[asset/Pasted image 20240731233207.png]]
 
 ***[[Langkah kedua]]***
 klik pada bagian avatar dan klik ***"Your Repository"***
 
 Gambar 0.2
-![[Pasted image 20240731233857.png]]
+![[asset/Pasted image 20240731233857.png]]
 
 ***[[Langkah 3]]***
 klik tombol ***"New***" yang berwarna hijau
 
 Gambar 0.3
-![[Pasted image 20240731234212.png]]
+![[asset/Pasted image 20240731234212.png]]
 
 ***[[Langkah 4]]***
 masukan ***"Repository Name"**** dan Klik tombol ***"Create Repository"*** berwarna hijau
 
 Gambar 0.4
-![[Pasted image 20240731234502.png]]
+![[asset/Pasted image 20240731234502.png]]
+
 
 ***[[Langkah Terakhir]]***
 selesai sudah pembuatan ***"New Repository"*** Dalam Github
 
 Gambar 0.5
-![[Pasted image 20240731234734.png]]
+![[asset/Pasted image 20240731234734.png]]
 
-# version github
+
+# konfigurasi git ke github
 code 1.1
 ```bash
 git --version
@@ -40,9 +57,8 @@ Penjelasan :
 perintah yang digunakan di terminal atau command line untuk menampilkan versi dari program Git yang terinstal pada sistem
 
 Gambar 1.1
-![[Pasted image 20240731225432.png]]
+![[asset/Pasted image 20240731225432.png]]
 
-# list
 code 2.1
 ```shell
 git config --list
@@ -51,12 +67,8 @@ Penjelasan:
 perintah yang digunakan di terminal atau command line untuk menampilkan semua konfigurasi yang sedang berlaku untuk Git di sistem
 
 Gambar 2.1
-![[Pasted image 20240731225816.png]]
+![[asset/Pasted image 20240731225816.png]]
 
-
-
-# user.name && user.mail
-## user.name
 code 3.1
 ```shell
 git config --global user.name "Nama Username Github"
@@ -69,12 +81,11 @@ git config --global user.name "clementhermawan"
 Gambar 3.1
 ![[Pasted image 20240731230252.png]]
 
-## user.mail
 code 3.2
 ```shell
 git config --global user.mail (Nama email github)
 =======================================================
-git config --global user.name clementhermawan2021@gmail.com
+git config --global user.mail clementhermawan2021@gmail.com
 ```
  Penjelasan:
 perintah yang digunakan di terminal atau command line untuk mengatur alamat email pengguna Git di tingkat global.
@@ -82,7 +93,6 @@ perintah yang digunakan di terminal atau command line untuk mengatur alamat emai
 Gambar 3.2
 ![[Pasted image 20240731230458.png]]
 
-# pwd
 code 4.1
 ```shell
 pwd
@@ -93,8 +103,6 @@ perintah yang digunakan di terminal atau command line untuk menampilkan direktor
 Gambar 4.1
 ![[Pasted image 20240731230703.png]]
 
-
-# Change direktori
 code 5.1
 ```shell
 cd K:/obsidian
@@ -106,7 +114,6 @@ perintah yang digunakan di terminal atau command line untuk mengubah direktori k
 Gambar 5.1
 ![[Pasted image 20240731231622.png]]
 
-# list
 code 6.1
 ```shell
 ls
@@ -117,7 +124,6 @@ perintah yang digunakan di terminal atau command line untuk menampilkan daftar f
 Gambar 6.1
 ![[Pasted image 20240731231745.png]]
 
-# konfigurasi git ke github
 code 7.1
 ```shell
 git init
@@ -203,5 +209,6 @@ perintah yang digunakan di terminal atau command line untuk mengirimkan commit d
 Gambar 8.3 (Sebelum terupdate)
 ![[Pasted image 20240731235418.png]]
 
-Gambar 8.4(Sesudah diupdate)'
+Gambar 8.4(Sesudah diupdate)
 ![[Pasted image 20240731235434.png]]
+
